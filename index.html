@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--=========================== UNICONS ===========================-->
-   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <!--=========================== UNICONS ===========================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
   <!--=========================== CSS ===========================-->
   <link rel="stylesheet" href="css/style.css">
@@ -13,11 +14,12 @@
 
   <title>Portfolio</title>
 </head>
+
 <body>
   <!--=========================== HEADER ===========================-->
   <header class="header" id="header">
     <nav class="nav container glass">
-      <a href="#" class="nav_logo">Andreas</a>
+      <a href="#" class="nav_logo">Jan Huss</a>
 
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list grid">
@@ -45,12 +47,12 @@
               Qualification
             </a>
           </li>
-          <li class="nav_item">
+          <!-- <li class="nav_item">
             <a href="#achievement" class="nav_link">
               <i class="uil uil-trophy nav_icon"></i>
               Achievements
             </a>
-          </li>
+          </li> -->
         </ul>
         <i class="uil uil-times nav_close nav_icon" id="nav-close"></i>
       </div>
@@ -72,24 +74,24 @@
       <div class="home_container container grid">
         <div class="home_content grid">
           <div class="home_social">
-            <a href="https://www.linkedin.com/in/andreas-losing-b5b263233/" target="_blank" class="home_social-icon">
+            <a href="https://www.linkedin.com/in/jan-huss-8345741b3/" target="_blank" class="home_social-icon">
               <i class="uil uil-linkedin"></i>
             </a>
 
-            <a href="https://github.com/andilosing" target="_blank" class="home_social-icon">
+            <a href="https://github.com/JanHu55" target="_blank" class="home_social-icon">
               <i class="uil uil-github"></i>
             </a>
           </div>
 
           <div class="home_img">
-            <img src="img/portrait.png"  class="home_img-img"alt="">
+            <img src="img/portrait.png" class="home_img-img" alt="">
           </div>
 
           <div class="home_data">
             <h1 class="home_title">Hi, I'm
               <h1 class="home_title-text_effect" data-text="Jan">Jan</h1>
             </h1>
-            <h3 class="home_subtitle">Software Engineer</h3>
+            <!-- <h3 class="home_subtitle">Marketing Expert</h3> -->
             <p class="home_description"></p>
             <a href="pdf/Resume_Losing.pdf" target="_blank" class="button button--flex">
               Download CV
@@ -108,591 +110,597 @@
       </div>
     </section>
 
+    <section id="projects">
+      <section class="computer_mockup section container">
+        <h2 class="section_title">Bachelor Thesis</h2>
+        <span class="section_subtitle">A prototype for blockchain interoperability was developed to enable
+          unidirectional data transfer between Ethereum and a Substrate-based Polkadot node. The solution utilizes a
+          notary scheme as a bridging model and integrates smart contracts written in Solidity, deployed via Hardhat and
+          Alchemy on the Sepolia testnet. Events triggered on Ethereum are captured and forwarded to the local Substrate
+          node, which was configured using the Polkadot SDK. The modular system demonstrates key concepts of cross-chain
+          communication and was validated in a local development environment. This proof of concept highlights the
+          feasibility of blockchain interoperability and provides insights into future potential for bidirectional
+          bridging and standardization.</span>
+
+
+        <div class="technology-stack">
+          <h3 class="stack-title">Technology Stack</h3>
+          <ul class="stack-list">
+            <li><span>Backend:</span> Node.js/JavaScript (Hardhat, ethers.js), Rust (Substrate)</li>
+            <li><span>Blockchain:</span> Ethereum (Sepolia-Testnetz), Substrate/Polkadot SDK</li>
+            <li><span>Tools:</span> Hardhat, Alchemy, dotenv</li>
+          </ul>
+        </div>
+
+
+
+
+
+
+      </section>
+
       <!--=========================== COMPUTER MOCKUP ===========================-->
       <section id="projects">
-  <section class="computer_mockup section container" >
-    <h2 class="section_title">Bachelor Thesis</h2>
-    <span class="section_subtitle">A comprehensive customer dashboard was developed to provide a 360-degree view of customer interactions, integrating data from Zoho, Freshdesk, Google Calendar, and Monday. It allows for the storage of custom data and features management of customer details, subscriptions, and invoicing. The dashboard also supports creating reminders, composing emails, scheduling appointments, and file uploads. A card index logs the usage history with customers, ensuring efficient and detailed customer support.</span>
-   
-    <div class="computer-mockup">
-        <div class="computer-screen">
-          <a href="img/Kundendashboard.png" target="_blank">
-            <img  src="img/Kundendashboard.png" alt="Kundendashboard">
-            <div class="zoom-icon">&#128269;</div>
-          </a>
-        </div>
-        <div class="computer-stand"></div> 
-        <div class="computer-base"></div> 
-    </div>
+        <section class="computer_mockup section container">
+          <h2 class="section_title">Study Project</h2>
+          <span class="section_subtitle">In collaboration with three fellow students, the PH Freiburg (University of
+            Education Freiburg), and the Naturpark Südschwarzwald (Southern Black Forest Nature Park), we developed a
+            prototype for a web-based online game. The goal was to create an engaging experience that teaches elementary
+            school children about the Black Forest region. <br>
+            The game is structured as a digital board game where players can build their own world and unlock new areas.
+            To gain the necessary currency, they must complete knowledge-based mini-games. The prototype was tested with
+            elementary school children to ensure the game was both fun and easy to understand.
+          </span>
 
-    <div class="technology-stack">
-      <h3 class="stack-title">Technology Stack</h3>
-      <ul class="stack-list">
-        <li><span>Frontend:</span> TypeScript, Lit, Tailwind CSS</li>
-      <li><span>Backend:</span> PHP</li>
-      <li><span>Database:</span> MySQL</li>
-      </ul>
-    </div>
-  
-    
-
-    
-
-   
-</section>
-
-<!--=========================== IPHOE MOCKUP ===========================-->
-<section class="iphone_mockup section container" >
-  <h2 class="section_title">Flashcard App</h2>
-  <span class="section_subtitle">This flashcard app is specifically designed for language learning. It allows for the automatic translation of texts into the target language and makes it easy to add new flashcards. An intelligent algorithm ensures that cards already learned are displayed again based on individual learning progress. Users can share their decks of flashcards with others and view their daily learning progress as well as that of other users.</span>
-    <div class="iphone-mockup">
-      <div class="iphone-screen">
-          <video id="myVideo" src="video/Karteikarten_App.MOV"></video>
-          <button class="play-button" id="playButton"><i id="playIcon" class="uil uil-play"></i></button>
-      </div>
-  </div>
-
-  <div class="technology-stack">
-    <h3 class="stack-title">Technology Stack</h3>
-    <ul class="stack-list">
-      <li><span>Frontend:</span> JavaScript, React, Redux</li>
-    <li><span>Backend:</span> JavaScript, Node.js, Express.js</li>
-    <li><span>Database:</span> Postgres</li>
-    </ul>
-  </div>
-
-  <div class="iphone code-buttons"> 
-  <p> 
-    <a class="button" href="https://github.com/andilosing/flashcardbackend" target="_blank"> See backend code</a>
-  </p>
-  <p> 
-    <a class="button" href="https://github.com/andilosing/flashcardfrontend" target="_blank"> See frontend code</a>
-  </p>
-</div>
-  </section>
-
-
-<!--=========================== IPHOE MOCKUP ===========================-->
-<section class="iphone_mockup section container" >
-  <h2 class="section_title">Gym Tracker</h2>
-  <span class="section_subtitle">The developed Gym Tracker allows users to effectively track their workouts and monitor progress. The app, employing JWT for secure login and authentication, stores exercise details and automatically suggests weights based on previous training sessions. Users can view their progress daily. Additionally, email confirmation is required during registration for enhanced account security.</span>
-  
-  
-
-
-    <div class="iphone-mockup">
-      <div class="iphone-screen">
-        <img  src="img/Gym_Tracker.png" alt="Gym-Tracker">
-      </div>
-  </div>
-
-  <div class="technology-stack">
-    <h3 class="stack-title">Technology Stack</h3>
-    <ul class="stack-list">
-      <li><span>Frontend:</span> JavaScript, React, Redux, Tailwind CSS</li>
-    <li><span>Backend:</span> JavaScript, Node.js, Express.js</li>
-    <li><span>Database:</span> Postgres</li>
-    </ul>
-  </div>
-
-  <div class="iphone code-buttons"> 
-  <p> 
-    <a class="button" href="https://github.com/andilosing/gymTracker" target="_blank"> See code</a>
-  </p>
-  
-</div>
-  </section>
-
-
-
-</section>
- 
-
-  
-
-     <!--=========================== SKILLS ===========================-->
-
-     <section class="skills section container" id="skills">
-      <h2 class="section_title">Skills</h2>
-      <span class="section_subtitle">I have mastered the following technologies and tools</span>
-      <div class="skills_slider">
-        <div class="skills_slider-track">
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Java</h3>
-            <img src="img/Java.png" alt="" class="slide_img">
+          <div class="computer-mockup">
+            <div class="computer-screen">
+              <a href="img/Kundendashboard.png" target="_blank">
+                <img src="img/Kundendashboard.png" alt="Start Screen Online Game">
+                <div class="zoom-icon">&#128269;</div>
+              </a>
+            </div>
+            <div class="computer-stand"></div>
+            <div class="computer-base"></div>
           </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">HTML</h3>
-            <img src="img/HTML.png" alt="" class="slide_img">
+          <div class="technology-stack">
+            <h3 class="stack-title">Technology Stack</h3>
+            <ul class="stack-list">
+              <li><span>Frontend:</span> JavaScript, Fudge, CSS</li>
+              <li><span>Backend:</span> JavaScript, Node.js, Typescript</li>
+            </ul>
           </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">CSS</h3>
-            <img src="img/CSS.png" alt="" class="slide_img">
+          <div class="iphone code-buttons">
+            <p>
+              <a class="button" href="https://github.com/andilosing/flashcardbackend" target="_blank"> See
+                code</a>
+            </p>
+          </div>
+        </section>
+
+
+        <!--=========================== IPHOE MOCKUP ===========================-->
+        <!-- <section class="iphone_mockup section container">
+          <h2 class="section_title">Gym Tracker</h2>
+          <span class="section_subtitle">The developed Gym Tracker allows users to effectively track their workouts and
+            monitor progress. The app, employing JWT for secure login and authentication, stores exercise details and
+            automatically suggests weights based on previous training sessions. Users can view their progress daily.
+            Additionally, email confirmation is required during registration for enhanced account security.</span>
+
+
+
+
+          <div class="iphone-mockup">
+            <div class="iphone-screen">
+              <img src="img/Gym_Tracker.png" alt="Gym-Tracker">
+            </div>
           </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">JavaScript</h3>
-            <img src="img/JavaScript.png" alt="" class="slide_img">
+          <div class="technology-stack">
+            <h3 class="stack-title">Technology Stack</h3>
+            <ul class="stack-list">
+              <li><span>Frontend:</span> JavaScript, React, Redux, Tailwind CSS</li>
+              <li><span>Backend:</span> JavaScript, Node.js, Express.js</li>
+              <li><span>Database:</span> Postgres</li>
+            </ul>
           </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">TypeScript</h3>
-            <img src="img/TypeScript.png" alt="" class="slide_img">
+          <div class="iphone code-buttons">
+            <p>
+              <a class="button" href="https://github.com/andilosing/gymTracker" target="_blank"> See code</a>
+            </p>
+
           </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">PHP</h3>
-            <img src="img/PHP.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">NodeJS</h3>
-            <img src="img/NodeJS.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">React</h3>
-            <img src="img/React.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Tailwind CSS</h3>
-            <img src="img/TailwindCSS.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Lit</h3>
-            <img src="img/Lit.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">npm</h3>
-            <img src="img/npm.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">SQL</h3>
-            <img src="img/SQL.png" alt="" class="slide_img"> 
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">MySQL</h3>
-            <img src="img/MySQL.png" alt="" class="slide_img"> 
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Postgres</h3>
-            <img src="img/Postgres.png" alt="" class="slide_img"> 
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Database</h3>
-            <img src="img/Database.png" alt="" class="slide_img">
-          </div>
-      
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">REST-API</h3>
-            <img src="img/API.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">GraphQL</h3>
-            <img src="img/API.png" alt="" class="slide_img">
-          </div>
-
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Git</h3>
-            <img src="img/Github.png" alt="" class="slide_img">
-          </div>
+        </section>
 
 
 
-      
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Java</h3>
-            <img src="img/Java.png" alt="" class="slide_img">
-          </div>
+      </section> -->
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">HTML</h3>
-            <img src="img/HTML.png" alt="" class="slide_img">
-          </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">CSS</h3>
-            <img src="img/CSS.png" alt="" class="slide_img">
-          </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">JavaScript</h3>
-            <img src="img/JavaScript.png" alt="" class="slide_img">
-          </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">TypeScript</h3>
-            <img src="img/TypeScript.png" alt="" class="slide_img">
-          </div>
+        <!--=========================== SKILLS ===========================-->
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">PHP</h3>
-            <img src="img/PHP.png" alt="" class="slide_img">
-          </div>
+        <section class="skills section container" id="skills">
+          <h2 class="section_title">Skills</h2>
+          <span class="section_subtitle">I have mastered the following technologies and tools</span>
+          <div class="skills_slider">
+            <div class="skills_slider-track">
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">NodeJS</h3>
-            <img src="img/NodeJS.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Java</h3>
+                <img src="img/Java.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">React</h3>
-            <img src="img/React.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">HTML</h3>
+                <img src="img/HTML.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Tailwind CSS</h3>
-            <img src="img/TailwindCSS.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">CSS</h3>
+                <img src="img/CSS.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Lit</h3>
-            <img src="img/Lit.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">JavaScript</h3>
+                <img src="img/JavaScript.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">npm</h3>
-            <img src="img/npm.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">TypeScript</h3>
+                <img src="img/TypeScript.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">SQL</h3>
-            <img src="img/SQL.png" alt="" class="slide_img"> 
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Solidity</h3>
+                <img src="img/solidity.svg" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">MySQL</h3>
-            <img src="img/MySQL.png" alt="" class="slide_img"> 
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Hardhat</h3>
+                <img src="img/Hardhat.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Postgres</h3>
-            <img src="img/Postgres.png" alt="" class="slide_img"> 
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Wordpress</h3>
+                <img src="img/wordpress.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Database</h3>
-            <img src="img/Database.png" alt="" class="slide_img">
-          </div>
-      
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">REST-API</h3>
-            <img src="img/API.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Google Analytics</h3>
+                <img src="img/Analytics.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">GraphQL</h3>
-            <img src="img/API.png" alt="" class="slide_img">
-          </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Looker Studio</h3>
+                <img src="img/looker.png" alt="" class="slide_img">
+              </div>
 
-          <div class="skills_slide">
-            <h3 class="skills_slide-title">Git</h3>
-            <img src="img/Github.png" alt="" class="slide_img">
-          </div>
-        </div>
-      </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Photoshop</h3>
+                <img src="img/Photoshop.png" alt="" class="slide_img">
+              </div>
 
-     </section>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Illustrator</h3>
+                <img src="img/Illustrator.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">InDesign</h3>
+                <img src="img/InDesign.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Premiere Pro</h3>
+                <img src="img/Premiere.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Blender</h3>
+                <img src="img/Blender.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Canva</h3>
+                <img src="img/Canva.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Microsoft Office</h3>
+                <img src="img/Office.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Git</h3>
+                <img src="img/Github.png" alt="" class="slide_img">
+              </div>
 
 
 
 
 
-          <!--=========================== QUALIFICATION ===========================-->
 
-          <section class="qualification section" id="qualification" >
-            <h2 class="section_title">Qualification</h2>
-            <span class="section_subtitle">My personal journey</span>
 
-            <div class="qualification_container container">
-              <div class="qualification_tabs">
-                <div class="qualification_button button--flex qualification_active" data-target="#education">
-                  <i class="uil uil-graduation-cap qualification_icon"></i>
-                  Education
-                </div>
-  
-                <div class="qualification_button button--flex" data-target="#work">
-                  <i class="uil uil-bag qualification_icon"></i>
-                  Work
-                </div>  
-              </div>            
-  
-                <div class="qualification_sections">
-                  <!--=========================== QUALIFICATION CONTENT 1 ===========================-->
-                  <div class="qualification_content qualification_active"  data-content id="education">
-                    <!--=========================== QUALIFICATION  1 ===========================-->
-                    <div class="qualification_data">
-                      <div>
-                       <h3 class="qualification_title">Bachelor Thesis (Full-Stack Development)</h3>
-                       <span class="qualification_subtitle">Development of a Customer Dashboard</span>
-                       <div class="qualification_calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        09.2023 - 02.2024
-                        </div>
-                     </div>
-  
-                     <div>
-                        <span class="qualification_rounder"></span>
-                        <span class="qualification_line"></span>
-                      </div>
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Java</h3>
+                <img src="img/Java.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">HTML</h3>
+                <img src="img/HTML.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">CSS</h3>
+                <img src="img/CSS.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">JavaScript</h3>
+                <img src="img/JavaScript.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">TypeScript</h3>
+                <img src="img/TypeScript.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Solidity</h3>
+                <img src="img/solidity.svg" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Hardhat</h3>
+                <img src="img/Hardhat.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Google Analytics</h3>
+                <img src="img/Analytics.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Looker Studio</h3>
+                <img src="img/looker.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Photoshop</h3>
+                <img src="img/Photoshop.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Illustrator</h3>
+                <img src="img/Illustrator.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">InDesign</h3>
+                <img src="img/InDesign.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Premiere Pro</h3>
+                <img src="img/Premiere.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Blender</h3>
+                <img src="img/Blender.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Canva</h3>
+                <img src="img/Canva.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Microsoft Office</h3>
+                <img src="img/Office.png" alt="" class="slide_img">
+              </div>
+
+              <div class="skills_slide">
+                <h3 class="skills_slide-title">Git</h3>
+                <img src="img/Github.png" alt="" class="slide_img">
+              </div>
+
+        </section>
+
+
+
+
+
+        <!--=========================== QUALIFICATION ===========================-->
+
+        <section class="qualification section" id="qualification">
+          <h2 class="section_title">Qualification</h2>
+          <span class="section_subtitle">My personal journey</span>
+
+          <div class="qualification_container container">
+            <div class="qualification_tabs">
+              <div class="qualification_button button--flex qualification_active" data-target="#education">
+                <i class="uil uil-graduation-cap qualification_icon"></i>
+                Education
+              </div>
+
+              <div class="qualification_button button--flex" data-target="#work">
+                <i class="uil uil-bag qualification_icon"></i>
+                Work
+              </div>
+            </div>
+
+            <div class="qualification_sections">
+              <!--=========================== QUALIFICATION CONTENT 1 ===========================-->
+              <div class="qualification_content qualification_active" data-content id="education">
+                <!--=========================== QUALIFICATION  1 ===========================-->
+                <div class="qualification_data">
+                  <div>
+                    <h3 class="qualification_title">Bachelor Thesis (Blockchain Interoperability)</h3>
+                    <span class="qualification_subtitle">Development of a bridge between two blockchains</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      11.2024 - 04.2025
                     </div>
-  
-                       <!--=========================== QUALIFICATION  2 ===========================-->
-                       <div class="qualification_data">
-                        <div></div>
-                        
-                        <div>
-                          <span class="qualification_rounder"></span>
-                          <span class="qualification_line"></span>
-                        </div>
-                        
-                        <div>
-                          <h3 class="qualification_title">Semester Abroad</h3>
-                          <span class="qualification_subtitle">Jönköping University - Sweden</span>
-                          <div class="qualification_calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           08.2022 - 01.2023
-                           </div>
-                        </div>
-    
-                       
-                      </div>
-
-                       <!--=========================== QUALIFICATION  3 ===========================-->
-                       <div class="qualification_data">
-                        <div>
-                          <h3 class="qualification_title">Bachelor Business Informatics</h3>
-                          <span class="qualification_subtitle">HfT Stuttgart - Germany</span>
-                          <div class="qualification_calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          2020 - to date
-                          </div>
-                        </div>
-     
-                        <div>
-                           <span class="qualification_rounder"></span>
-                           <span class="qualification_line"></span>
-                         </div>
-    
-                       
-                      </div>
-  
-                         <!--=========================== QUALIFICATION  4 ===========================-->
-                    <div class="qualification_data">
-
-                      <div></div>
-                        
-                        <div>
-                          <span class="qualification_rounder"></span>
-                        </div>
-
-                        
-                      
-                     <div>
-                      <h3 class="qualification_title">Business High School</h3>
-                       <span class="qualification_subtitle">KS1 Villingen - Germany</span>
-                       <div class="qualification_calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2016 - 2019
-                        </div>
-                    </div>
-  
-                   
-                    </div>
-  
                   </div>
-     <!--=========================== QUALIFICATION CONTENT 2 ===========================-->
-     <div class="qualification_content"  data-content id="work">
-         <!--=========================== QUALIFICATION  1 ===========================-->
-         <div class="qualification_data">
-          <div>
-            <h3 class="qualification_title">Bachelor Thesis Intern</h3>
-            <span class="qualification_subtitle">SoftwareStack GmbH - Germany</span>
-            <div class="qualification_calendar">
-            <i class="uil uil-calendar-alt"></i>
-            09.2023 - 01.2024
-            </div>
-         </div>
 
-         <div>
-            <span class="qualification_rounder"></span>
-            <span class="qualification_line"></span>
-          </div>
-        </div>
-
-           <!--=========================== QUALIFICATION  2 ===========================-->
-           <div class="qualification_data">
-            <div></div>
-            
-            <div>
-              <span class="qualification_rounder"></span>
-              <span class="qualification_line"></span>
-            </div>
-            
-            <div>
-              <h3 class="qualification_title">Business Intelligence</h3>
-              <span class="qualification_subtitle">KPMG - Germany</span>
-              <div class="qualification_calendar">
-               <i class="uil uil-calendar-alt"></i>
-               02.2023 - 07.2023
-               </div>
-            </div>
-
-           
-          </div>
-
-           <!--=========================== QUALIFICATION  3 ===========================-->
-           <div class="qualification_data">
-            <div>
-              <h3 class="qualification_title">Project- & Process- Management Intern</h3>
-              <span class="qualification_subtitle">Mercedes-Benz AG - Germany</span>
-              <div class="qualification_calendar">
-               <i class="uil uil-calendar-alt"></i>
-               02.2022 - 08.2022
-               </div>
-            </div>
-
-            <div>
-               <span class="qualification_rounder"></span>
-               <span class="qualification_line"></span>
-             </div>
-
-           
-          </div>
-
-             <!--=========================== QUALIFICATION  4 ===========================-->
-        <div class="qualification_data">
-
-          <div></div>
-            
-            <div>
-              <span class="qualification_rounder"></span>
-            </div>
-          
-         <div>
-          <h3 class="qualification_title">Software-Engineer Intern</h3>
-          <span class="qualification_subtitle">Novatec Consulting - Germany</span>
-          <div class="qualification_calendar">
-           <i class="uil uil-calendar-alt"></i>
-           07.2021 - 08.2021
-           </div>
-        </div>
-
-       
-        </div>
-
-      </div>
-
-
-
-
-                  
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
                 </div>
-              
-            </div>          
-          </section>
+
+                <!--=========================== QUALIFICATION  2 ===========================-->
+                <div class="qualification_data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification_title">Study Project</h3>
+                    <span class="qualification_subtitle">Development of web based Online game for primary schools</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      09.2022 - 08.2023
+                    </div>
+                  </div>
 
 
-            <!--=========================== ACHIEVEMENTS ===========================-->
-    <section class="service section container" id="achievement"> 
-      <h2 class="section_title">Achievements</h2>
-      <span class="section_subtitle">My certificates and awards</span>
+                </div>
+
+                <!--=========================== QUALIFICATION  3 ===========================-->
+                <div class="qualification_data">
+                  <div>
+                    <h3 class="qualification_title">Bachelor Online Media</h3>
+                    <span class="qualification_subtitle">HFU Furtwangen - Germany</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2020 - 2025
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+
+
+                </div>
+
+                <!--=========================== QUALIFICATION  4 ===========================-->
+                <div class="qualification_data">
+
+                  <div></div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                  </div>
 
 
 
-      <div class="box">
-        <div class="card">
-          <i class="uil uil-file-bookmark-alt"></i>
-        <h5>Full-Stack Engineer</h5>
-        <div class="pra">
-          <p>
-            300 hours+ Codecademy full-stack develepoer career path.
-            
-          </p>
-
-          <p> 
-            <a class="button" href="pdf/FullStack_Certificate.pdf" target= "_blank">See cerificate</a>
-          </p>
-        </div>
-        </div>
+                  <div>
+                    <h3 class="qualification_title">Business High School</h3>
+                    <span class="qualification_subtitle">KS1 Villingen - Germany</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2016 - 2019
+                    </div>
+                  </div>
 
 
-        <div class="card">
-          <i class="uil uil-trophy"></i>
-          <h5>Deutschland-Stipendium</h5>
-          <div class="pra">
-            <p>2021 and 2022 admission to the Deutschlandstipendium scholarship program for talented and high-achieving students.
-            </p>
-  
-            <p> 
-              <a class="button" href="pdf/Stipendium.pdf" target="_blank">See certificate</a>
-            </p>
-          </div>
-          </div>
+                </div>
 
-        <div class="card">
-          <i class="uil uil-file-bookmark-alt"></i>
-          <h5>PHP Skill-Path</h5>
-          <div class="pra">
-            <p>Codecademy skill-path about the fundamentals of PHP.
-            </p>
-              
-            <p> 
-              <a class="button" href="pdf/PHP_Certificate.pdf" target="_blank">See certificate</a>
-            </p>
-          </div>
-          </div>
-
-
-            <div class="card">
-              <i class="uil uil-trophy"></i>
-              <h5>Novatec Förderpreis</h5>
-              <div class="pra">
-                <p>
-                  2021 and 2022 Novatec sponsorship award for outstanding performance in studies.
-                </p>
-      
-                <p> 
-                  <a class="button" href="pdf/Novatec-Foerderpreis.pdf" target="_blank">See certificate</a>
-                </p>
               </div>
+              <!--=========================== QUALIFICATION CONTENT 2 ===========================-->
+              <div class="qualification_content" data-content id="work">
+                <!--=========================== QUALIFICATION  1 ===========================-->
+                <div class="qualification_data">
+                  <div>
+                    <h3 class="qualification_title">Co-Founder</h3>
+                    <span class="qualification_subtitle">Huss&Losing GbR</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      12.2024 - 04.2025
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+                </div>
+
+                <!--=========================== QUALIFICATION  2 ===========================-->
+                <div class="qualification_data">
+                  <div></div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification_title">Content Creator/ Web Developer</h3>
+                    <span class="qualification_subtitle">B Braun SE Tuttlingen</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      03.2022 - 08.2022
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!--=========================== QUALIFICATION  3 ===========================-->
+                <div class="qualification_data">
+                  <div>
+                    <h3 class="qualification_title">Content Creator</h3>
+                    <span class="qualification_subtitle">B Braun SE Tuttlingen</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      08.2021 - 02.2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+
+
+                </div>
+
+                <!--=========================== QUALIFICATION  4 ===========================-->
+                <div class="qualification_data">
+
+                  <div></div>
+
+                  <div>
+                    <span class="qualification_rounder"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification_title">Final Product Inspector</h3>
+                    <span class="qualification_subtitle">GWS-Kunstoffspritzguss GmbH & Co. KG</span>
+                    <div class="qualification_calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      07.2019 - now
+                    </div>
+                  </div>
+
+
+                </div>
+
               </div>
 
 
-      </div>
-
-    </section>
-
-          
-  
 
 
 
-           
-  
+            </div>
+
+          </div>
+        </section>
+
+
+        <!--=========================== ACHIEVEMENTS ===========================-->
+        <!-- <section class="service section container" id="achievement">
+        <h2 class="section_title">Achievements</h2>
+        <span class="section_subtitle">My certificates and awards</span>
+
+
+
+        <div class="box">
+          <div class="card">
+            <i class="uil uil-file-bookmark-alt"></i>
+            <h5>Full-Stack Engineer</h5>
+            <div class="pra">
+              <p>
+                300 hours+ Codecademy full-stack develepoer career path.
+
+              </p>
+
+              <p>
+                <a class="button" href="pdf/FullStack_Certificate.pdf" target="_blank">See cerificate</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <i class="uil uil-trophy"></i>
+            <h5>Deutschland-Stipendium</h5>
+            <div class="pra">
+              <p>2021 and 2022 admission to the Deutschlandstipendium scholarship program for talented and
+                high-achieving students.
+              </p>
+
+              <p>
+                <a class="button" href="pdf/Stipendium.pdf" target="_blank">See certificate</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="uil uil-file-bookmark-alt"></i>
+            <h5>PHP Skill-Path</h5>
+            <div class="pra">
+              <p>Codecademy skill-path about the fundamentals of PHP.
+              </p>
+
+              <p>
+                <a class="button" href="pdf/PHP_Certificate.pdf" target="_blank">See certificate</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <i class="uil uil-trophy"></i>
+            <h5>Novatec Förderpreis</h5>
+            <div class="pra">
+              <p>
+                2021 and 2022 Novatec sponsorship award for outstanding performance in studies.
+              </p>
+
+              <p>
+                <a class="button" href="pdf/Novatec-Foerderpreis.pdf" target="_blank">See certificate</a>
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </section> -->
+
+
+
+
+
+
+
+
 
   </main>
 
-  
+
   <!--=========================== Footer ===========================-->
   <footer class="footer">
     <div class="footer_bg">
       <div class="footer_container container grid">
         <div>
-          <h1 class="footer_title">Andreas</h1>
+          <h1 class="footer_title">Jan</h1>
           <span class="footer_subtitle">
-            Business Informatics student
+            Online Media student
           </span>
         </div>
 
@@ -708,24 +716,24 @@
           </li>
           <li>
             <a href="#projects" class="footer_link">Projects</a>
-          </li>         
+          </li>
         </ul>
 
         <div class="footer_socials">
-          <a href="https://www.linkedin.com/in/andreas-losing-b5b263233/" target="_blank" class="footer_social">
+          <a href="https://www.linkedin.com/in/jan-huss-8345741b3/" target="_blank" class="footer_social">
             <i class="uil uil-linkedin"></i>
           </a>
 
-          <a href="https://github.com/" target="_blank" class="footer_social">
+          <a href="https://github.com/JanHu55" target="_blank" class="footer_social">
             <i class="uil uil-github"></i>
           </a>
         </div>
       </div>
-      <p class="footer_copy">&#169; Andreas Losing. All rights reserved.</p>
+      <p class="footer_copy">&#169; Jan Huss. All rights reserved.</p>
     </div>
   </footer>
 
- <!--=========================== SCROLL TOP ===========================-->
+  <!--=========================== SCROLL TOP ===========================-->
   <a href="#home" class="scrollup" id="scroll-up">
     <i class="uil uil-arrow-up scrollup_icon"></i>
   </a>
@@ -734,4 +742,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>

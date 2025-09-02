@@ -84,7 +84,7 @@ body.dark-theme{
   --title-color: hsl(var(--hue-color), 10%, 10%);
   --text-color: hsl(var(--hue-color), 0%, 45%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 6%, 99%);
+  --body-color: hsl(var(--hue-color), 20%, 96%);
   --card-color: hsl(var(--hue-color), 0%, 95%);
   --container-color:#fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
@@ -342,31 +342,28 @@ align-items: center;
 .home_title-text_effect{
   font-size: var(--big-font-size);
   position: relative;
+  display: inline-block;     /* Breite = Textbreite */
+  white-space: nowrap;       
   color: var(--body-color);
   -webkit-text-stroke: 1px var(--first-color);
 }
 
 .home_title-text_effect::before{
-  content: attr(data-text); 
+  content: attr(data-text);
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0 0 0 0;        
   width: 0;
-  height: 100%;
   color: var(--first-color);
-  -webkit-text-stroke: 0vw var(--first-color);
+  -webkit-text-stroke: 0;
   border-right: 2px solid var(--first-color);
   overflow: hidden;
-  animation: animate 6s linear infinite;
+  animation: nameFill 3s linear infinite; 
 }
 
-@keyframes animate{
-  0%,10%,100%{
-    width: 0
-    }
-    70%,90%{
-      width: 9rem;
-    }
+@keyframes nameFill{
+  0%, 10%   { width: 0; }
+  70%, 90%  { width: 100%; }  
+  100%      { width: 100%; } 
 }
 
 .home_subtitle{
@@ -481,6 +478,7 @@ align-items: center;
 .stack-list li span {
   font-weight: bold; /* Macht die Kategorie (z.B. Frontend) fett */
 }
+
 
 /*=========================== COMPUTER MOCKUP ===========================*/
 .computer_mockup.container {
@@ -1388,7 +1386,7 @@ h5{
   }
 
   .home_img{
-    width: 720px;
+    width: 400px;
   }
   
   .home_social{
